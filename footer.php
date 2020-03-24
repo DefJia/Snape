@@ -20,6 +20,11 @@
                         <?php echo (!Snape_option('social_github')) ? '' : '<a target="_blank" rel="nofollow" href="' . Snape_option('social_github') . '"><i class="fa fa-github"></i></a>'; ?>
                         </p>
                         <p>© <?php echo date('Y'); ?> <a href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a> All Rights Reserved.<br>Theme <a href="https://github.com/vtrois/snape" target="_blank" rel="nofollow">Snape</a> made by <a href="https://www.vtrois.com/" target="_blank" rel="nofollow">Vtrois</a><?php if(snape_option('icp_num')){?><br><a href="http://www.miitbeian.gov.cn/" rel="external nofollow" target="_blank"><?php echo snape_option( 'icp_num' ); } ?></a><?php if(snape_option('gov_num')){?><br><a href="<?php echo snape_option( 'gov_link' ); ?>" rel="external nofollow" target="_blank"><i class="govimg"></i><?php echo snape_option( 'gov_num' ); ?></a><?php }?></p><p><?php echo (!snape_option('site_tongji')) ? '' : '<script>' . snape_option('site_tongji') . '</script>'; ?></p>
+
+                        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1275244785'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/z_stat.php%3Fid%3D1275244785%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+                        
+                        <p>© 2016-2020 <a href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a> All Rights Reserved.<br>Theme <a href="https://github.com/vtrois/snape" target="_blank" rel="nofollow">Snape</a> made by <a href="https://www.vtrois.com/" target="_blank" rel="nofollow">Vtrois</a><br><a href="http://www.miitbeian.gov.cn/" rel="external nofollow" target="_blank"><?php echo get_option( 'zh_cn_l10n_icp_num' );?></a></p>
+
                     </div>
                 </div>
             </div>

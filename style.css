@@ -19,7 +19,7 @@ body {
 	padding: 0;
 	width: 100%;
 	height: auto;
-	background: #fff;
+	background: #EAF9E3;
 	font-weight: 300;
 	font-size: 14px;
 	font-family:-apple-system,BlinkMacSystemFont,opensans,Optima,"Microsoft Yahei",sans-serif;
@@ -661,7 +661,7 @@ nav.navbar-inverse.navbar-full .navbar-toggle {
 }
 
 .pageheader .title {
-	color: #fff!important;
+	/* color: #fff!important; */
 	font-size: 40px
 }
 
@@ -698,7 +698,7 @@ nav.navbar-inverse.navbar-full .navbar-toggle {
 }
 
 .headtbanner span {
-	color: #fff;
+	/* color: #fff; */
 	font-size: 15px
 }
 
